@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="POST" action="insert.php">
+      <table>
+        <tr>
+          <th>book no.</th>
+          <td><input type="text" name="id" /></td>
+        </tr>
+        <tr>
+            <th>title</th>
+            <td><input type="text" name="title" /></td>
+          </tr>
+          <tr>
+            <th>author</th>
+            <td><input type="text" name="author" /></td>
+          </tr>
+          <tr>
+            <th>edition</th>
+            <td><input type="text" name="edition" /></td>
+          </tr>
+          <tr>
+            <th>publisher</th>
+            <td><input type="text" name="publisher" /></td>
+          </tr>
+          <tr>
+              <th><input type="submit" name="submit"></th>
+          </tr>
+      </table>
+    </form>
+    <form method="POST" action="getbook.php">
+        <h3>Enter the title of the book to check? </h3>
+        <input type="text" name="bookname"><br>
+        <input type="submit" name="submit">
+    </form>
+
+    <div>
+       
+
+    </div>
+  </body>
+</html>
+
+
+
